@@ -1,0 +1,75 @@
+:root {
+    --color-brend: #819857;
+    --color-brend-I: #335f1f;
+    --color-primeri-I: #faf4ea;
+    --color-primeri-II: #31261a;
+
+}
+
+body {
+    color: var(--color-primeri-II);
+}
+
+ul {
+    list-style-type: none;
+}
+
+.button {
+    color: var(--color-primeri-I);
+    background-color: var(--color-brend);
+    border: 2px solid var(--color-brend);
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.button:hover {
+    color: var(--color-brend-I);
+    background-color: transparent;
+}
+
+.button.button:active {
+    color: var(--color-primeri-I);
+    background-color: var(--color-brend-I);
+}
+
+.Нові-Традиції {
+    color: var(--color-primeri-I);
+}
+
+.Нові-Традиції:hover {
+    color: var(--color-brend);
+}
+
+.link {
+    color: var(--color-primeri-I);
+}
+
+.link:hover {
+    color: var(--color-brend);
+}
+
+.контакти:hover {
+    color: var(--color-brend);
+}
+
+.Hero-title {
+    color: var(--color-primeri-I);
+}
+
+.Hero-title span {
+    color: var(--color-brend-I);
+}
+
+.adventgest-list {
+    color: var(--color-primeri-I);
+    background-color: var(--color-brend);
+}
+
+.section-title {
+    color: var(--color-primeri-II)
+}
+
+.section-title .accent {
+    color: var(--color-brend-I)
+}
+
